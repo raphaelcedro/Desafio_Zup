@@ -1,0 +1,5 @@
+{
+	"chromeDriver": ".\\asserts\\chromedriver.exe",
+	"paginaHomeMagazineLuiza": "https://www.magazineluiza.com.br/"
+	
+}

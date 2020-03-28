@@ -1,0 +1,199 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Adicionar produto na sacola",
+        "description": "",
+        "id": "abir-site-magazine-luiza;adicionar-produto-na-sacola;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1276274200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.screenshotValidandoEAdicionandoProdutoNaSacola(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13106375400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que o usuario tenha acesso a pagina inicial do site",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.queOUsuarioTenhaAcessoAPaginaInicialDoSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3254560400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "usuario inserir um \"geladeira\" clicar na lista de exibicao do produto pesquisado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "geladeira",
+                  "offset": 20
+                }
+              ],
+              "location": "AdicionarProdutoSacolaSteps.usuarioInserirUmClicarNaListaDeExibicaoDoProdutoPesquisado(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2410855700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usuario valida o retorno da busca do seu produto pesquisado",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.usuarioValidaORetornoDaBuscaDoSeuProdutoPesquisado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2432329500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "usuario escolhe um \"geladeira\" da lista",
+            "match": {
+              "arguments": [
+                {
+                  "val": "geladeira",
+                  "offset": 20
+                }
+              ],
+              "location": "AdicionarProdutoSacolaSteps.usuarioEscolheUmDaLista(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3872201700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "usuario seleciona a voltagem do produto",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.usuarioSelecionaAVoltagemDoProduto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2218447099,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "usuario informa o cep \"\u003c38415444\u003e\" para calcular o frete depois clica no botao ok",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003c38415444\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "AdicionarProdutoSacolaSteps.usuarioInformaOCepParaCalcularOFreteDepoisClicaNoBotaoOk(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1736682700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "usuario adiciona o produto na sacola",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.usuarioAdicionaOProdutoNaSacola()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4340785700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "usuario valida o produto adicionado na sacola",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.usuarioValidaOProdutoAdicionadoNaSacola()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 615173100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "usuario valida o cep se esta correto",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.usuarioValidaOCepSeEstaCorreto()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1895451499,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "usuario confirma o produto",
+            "match": {
+              "location": "AdicionarProdutoSacolaSteps.usuarioConfirmaOProduto()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AcessarMagazineLuiza"
+          },
+          {
+            "line": 11,
+            "name": "@ValidandoEAdicionandoProdutoNaSacola"
+          }
+        ]
+      }
+    ],
+    "name": "Abir site Magazine Luiza",
+    "description": "Como usuario\nEu gostaria de acessar site Magazine Luiza\nPara que eu possa adicionar um produto na sacola",
+    "id": "abir-site-magazine-luiza",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/adicionar_produto_sacola.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@AcessarMagazineLuiza"
+      }
+    ]
+  }
+]
